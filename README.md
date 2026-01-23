@@ -1,4 +1,4 @@
-# MR-RCA
+# Hidiag
 Artifacts accompanying the paper Hidiag
 
 # Data
