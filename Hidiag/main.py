@@ -31,8 +31,8 @@ def str2bool(v):
 parser = argparse.ArgumentParser()
 parser.add_argument('-m', '--method', type=str, default="MR_RCA",
                     choices=["MR_RCA" ], help="method choice")
-parser.add_argument('-d', '--dataset', type=str, default="AIops2022",
-                    choices=["AIops2021", "AIops2022"],
+parser.add_argument('-d', '--dataset', type=str, default="TT",
+                    choices=["TT", "SN"],
                     help="dataset choice")
 
 parser.add_argument('-e', '--entity', type=str, default="node",
